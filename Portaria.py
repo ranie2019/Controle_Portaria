@@ -1,7 +1,7 @@
 import random
 
-funcionarios = ['doralice', 'juliana', 'joao paulo', 'kleber', 'claudia', 'alessandro', 'amanda', 'edney', 'joseclay',
-                'luciana', 'maria aparecida', 'reginaldo', 'geruel', 'gloria', 'fernando']
+funcionarios = ['doralice', 'juliana', 'joao paulo', 'kleber', 'claudia', 'alessandro', 'amanda', 'edney', 'joseclay','luciana', 'maria aparecida', 'reginaldo', 'geruel',
+                'gloria', 'fernando', 'Wilson', 'irineide', 'palmarindo', 'vera', 'machado', 'manuel', 'genilson', 'ricardo', 'cida', 'sueli', 'ivam', 'evandro']
 
 for f in funcionarios:
     print(f'{f}, ', end=' ')
@@ -24,8 +24,8 @@ if a == 1:
             nome = str(input('Digite o Nome Que Voce Quer Remover: '))
             funcionarios.remove(nome)
             a += 1
-else:
-    print('Ok')
+
+
 
 escolha1 = random.choice(funcionarios)
 escolha2 = random.choice(funcionarios)
@@ -38,57 +38,68 @@ escolha8 = random.choice(funcionarios)
 escolha9 = random.choice(funcionarios)
 escolha10 = random.choice(funcionarios)
 escolha11 = random.choice(funcionarios)
+escolha12 = random.choice(funcionarios)
+escolha13 = random.choice(funcionarios)
+escolha14 = random.choice(funcionarios)
+escolha15 = random.choice(funcionarios)
+escolha16 = random.choice(funcionarios)
+escolha17 = random.choice(funcionarios)
+escolha18 = random.choice(funcionarios)
+escolha19 = random.choice(funcionarios)
+escolha20 = random.choice(funcionarios)
+escolha21 = random.choice(funcionarios)
+escolha22 = random.choice(funcionarios)
 
 print('*' * 15)
 print('1* Andar')
 print('*' * 15)
 
-print('Chapelaria = Wilson')
-print('P5 = Irineide')
-print('P5 = Vera')
-print('Catraca = Palmarindo')
-print(f'Sub-solo = {escolha1}')
+print(f'Chapelaria = {escolha1}')
+print(f'P5 = {escolha2}')
+print(f'P5 = {escolha3}')
+print(f'Catraca = {escolha4}')
+print(f'Sub-solo = {escolha5}')
 
 print('*' * 15)
 print('2* Andar')
 print('*' * 15)
 
-print(f'Quimio = {escolha2}')
-print('Docas = Machado')
-print('Farmacia = Manuel')
-print('Farmacia = Genilson')
-print('Farmacia = Ricardo')
+print(f'Quimio = {escolha6}')
+print(f'Docas = {escolha7}')
+print(f'Farmacia = {escolha8}')
+print(f'Farmacia = {escolha9}')
+print(f'Farmacia = {escolha10}')
 
 print('*' * 15)
 print('3* Andar')
 print('*' * 15)
 
-print('P9 = Cida')
-print('P9 = Sueli')
-print(f'P8 = {escolha3}')
-print(f'P12 = {escolha4}')
-print(f'P13 = {escolha5}')
-print(f'P10 = Ivam')
-print(f'HD = {escolha6}')
+print(f'P9 = {escolha11}')
+print(f'P9 = {escolha12}')
+print(f'P8 = {escolha13}')
+print(f'P12 = {escolha14}')
+print(f'P13 = {escolha15}')
+print(f'P10 = {escolha16}')
+print(f'HD = {escolha17}')
 
 print('*' * 15)
 print('4* Andar')
 print('*' * 15)
 
-print(f'P11 = {escolha7}')
-print(f'P7 = {escolha8}')
-print(f'C7 = {escolha9}')
-print('Diretoria = Evandro')
+print(f'P11 = {escolha18}')
+print(f'P7 = {escolha19}')
+print(f'C7 = {escolha20}')
+print(f'Diretoria = Evandro')
 
 print('*' * 15)
 print('5* Andar')
 print('*' * 15)
 
-print(f'P14 = {escolha10}')
+print(f'P14 = {escolha21}')
 
 print('*' * 15)
 print('Ronda = Marcia')
-print(f'Ronda = {escolha11}')
+print(f'Ronda = {escolha22}')
 print('*' * 15)
 
 print('*' * 15)
